@@ -10,7 +10,7 @@ def calculator():
         print(f"the difference of the two numbers is {num_1 - num_2}")
     elif operator == "multiplication" or operator == "*":
         print(f"the product of the two numbers is {num_1 * num_2}")
-    elif opertor == "division" or operator == "/":
+    elif operator == "division" or operator == "/":
         print(f"the quotient of the two numbers is {num_1 / num_2}")
     else:
         print("invalid operator")
